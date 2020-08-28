@@ -16,13 +16,13 @@
 
 (function() {
     'use strict';
-  //
-  // CONFIG OPTIONS
-  //
-  var VOLUME = 1.0;   //Edit this to change sound volume - 0.5 is half, 1.0 is full
-  //
-  // END CONFIG DONT EDIT BELOW
-  //
+    //
+    // CONFIG OPTIONS
+    //
+    var VOLUME = 1.0;   //Edit this to change sound volume - 0.5 is half, 1.0 is full
+    //
+    // END CONFIG DONT EDIT BELOW
+    //
 
     var base64audio, reviewPercentage, timeSinceReview, theSound;
     var reviewResultElement = document.querySelector('#review-stats-answered-correctly .review-stats-value');
