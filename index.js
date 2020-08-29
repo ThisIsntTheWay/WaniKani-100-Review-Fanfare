@@ -2,7 +2,7 @@
 // @name         WaniKani 100% Review Fanfare
 // @namespace    http://joncousins.co.uk
 // @description  100% review score is hard! Congratulate yourself with a wonderful fanfare!
-// @version      0.3.1
+// @version      0.4.0
 // @author       Jon Cousins
 // @include     http://www.wanikani.com/*
 // @include     https://www.wanikani.com/*
