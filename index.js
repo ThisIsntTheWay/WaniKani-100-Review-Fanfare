@@ -25,7 +25,7 @@
     var logPrefix = 'WaniKani 100% Review Fanfare: ';
 
     if (reviewResultElement == null) {
-		if (doDebug) {
+		if (verboseOutput) {
 			console.log(logPrefix, "var 'reviewResultElement' is NULL, possibly not on review page.");
 		}
         return;
@@ -57,7 +57,7 @@
 			return;
 		}
     } else {
-		if (doDebug) {
+		if (verboseOutput) {
 			console.error(logPrefix, 'Review score is not 100%.');
 		}
 		
