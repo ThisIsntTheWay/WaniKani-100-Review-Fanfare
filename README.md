@@ -29,4 +29,5 @@ If you encounter any problems, please let me know below!
 ---
 
 *Please note this uses the Zelda BotW “Key Item” fanfare.  
-I used [this tool](https://base64.guru/converter/encode/audio) to encode the audio file. To use your own audio, swap out the value of `b64` with your own encoded audio.*
+I used [this tool](https://base64.guru/converter/encode/audio) to encode the audio file.  
+To use your own audio, open the "Set jingle" menu in your script provider.*
