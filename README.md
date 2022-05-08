@@ -8,7 +8,7 @@ Inspired by @PabloM from https://community.wanikani.com/t/victory-sound-for-100-
 
 ---
 
-**Latest version:**  v0.5
+**Latest version:**  v0.5.1
 
 **Download** **:** [https://greasyfork.org/en/scripts/410114-wanikani-100-review-fanfare ](https://greasyfork.org/en/scripts/410114-wanikani-100-review-fanfare)
 
@@ -20,7 +20,7 @@ Inspired by @PabloM from https://community.wanikani.com/t/victory-sound-for-100-
 **Credits:**
 
 * Original script: me
-* Update to fix autoplay: [ThisIsntTheWay](https://github.com/ThisIsntTheWay)
+* Update to fix autoplay, additional changes: [ThisIsntTheWay](https://github.com/ThisIsntTheWay)
 * Idea by: [@PabloM](https://community.wanikani.com/u/pablom/summary)
 * Audio by: Nintendo
 

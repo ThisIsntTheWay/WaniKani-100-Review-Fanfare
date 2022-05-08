@@ -1,6 +1,6 @@
 {
   "name": "wanikani-100-review-fanfare",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "100% review score is hard! Congratulate yourself with a wonderful fanfare!",
   "main": "index.js",
   "scripts": {
