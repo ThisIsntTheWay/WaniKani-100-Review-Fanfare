@@ -21,11 +21,24 @@ function GMsetup() {
 			let a = localStorage.getItem(lsJingleDataFlagname) || false;
 			let aText = ((a !== null) ? 'Set ' : 'Not set');
 			
+			let dataType = "";
+			if (a) {
+				dataType = a.substring(0, a.indexOf(","));
+				let tmp = dataType.substring(0, dataType.indexOf("/"));
+				
+				// If dataType does not begin with data:audio, then it must be an URL.
+				// This check does not account for possible edge cases and is kinda bad, but whatever.
+				if (tmp != "data:audio") {
+					dataType = "URL " + (b.substring(b.lastIndexOf("/") + 1));
+				}
+			}
+			
+			
 			// Calc b64 data size
 			let size = a ? a.substring(a.indexOf(',') + 1) : false;
 			let sizeText = (size) ? String("(" + atob(size).length + " bytes)") : '';
 
-			let b = prompt("Jingle data: " + aText + sizeText + ".\n\nEnter new data encoded as a b64 data URI:");
+			let b = prompt("Jingle data: " + aText + sizeText + ".\nType: " + dataType + "\n\nEnter new data encoded as a b64 data URI:");
 			if (b) {
 				// ToDo: Validate input
 				localStorage.setItem(lsJingleDataFlagname, b);
