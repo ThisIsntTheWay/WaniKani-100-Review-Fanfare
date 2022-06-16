@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         WaniKani 100% Review Fanfare
-// @namespace    http://joncousins.co.uk
-// @description  100% review score is hard! Congratulate yourself with a wonderful fanfare!
-// @version      0.5.1
-// @author       Jon Cousins, ThisIsntTheWay
-// @include      http*://*.wanikani.com/*
-// @grant	  GM_registerMenuCommand
-// @run-at    document-end
+// @name         	WaniKani 100% Review Fanfare
+// @namespace    	https://github.com/ThisIsntTheWay
+// @description  	100% review score is hard! Congratulate yourself with a wonderful fanfare!
+// @version      	0.5.1
+// @author       	Jon Cousins, ThisIsntTheWay
+// @include      	http*://*.wanikani.com/review/*
+// @grant	  		GM_registerMenuCommand
+// @run-at    		document-end
 // ==/UserScript==
 
 // Local storage object namings
@@ -19,7 +19,7 @@ let logPrefix = 'WaniKani 100% Review Fanfare: ';
 // External confetti JS
 let confettiJS = document.createElement('script');
 	confettiJS.src = "https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js";
-	confettiJS.setAttribute("type", "text/javascript");	  
+	confettiJS.setAttribute("type", "text/javascript");
 document.body.appendChild(confettiJS);	
 
 function GMsetup() {
