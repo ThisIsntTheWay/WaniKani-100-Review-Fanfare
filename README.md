@@ -1,4 +1,5 @@
-A tampermonkey userscript written by me.
+A tampermonkey userscript initially written by [evolutionxbox](https://github.com/evolutionxbox).  
+_Further maintained by me._
 
 Inspired by @PabloM from https://community.wanikani.com/t/victory-sound-for-100-review-result/45632
 
@@ -13,16 +14,14 @@ Inspired by @PabloM from https://community.wanikani.com/t/victory-sound-for-100-
 
 **Latest version:**  v0.5.1
 
-**Download** **:** [https://greasyfork.org/en/scripts/410114-wanikani-100-review-fanfare ](https://greasyfork.org/en/scripts/410114-wanikani-100-review-fanfare)
+**Download:** https://greasyfork.org/en/scripts/446584-wanikani-100-review-fanfare
 
-**Known issues:**
-
-* Firefox and Chrome can sometimes block autoplay audio
-* Wanikani must have been given permission to play audio before the script will work
+**Note:**  
+Wanikani must have been given permission to play audio before the script will work.
 
 **Credits:**
 
-* Original script: me
+* Original script: [evolutionxbox](https://github.com/evolutionxbox)
 * Update to fix autoplay, additional changes: [ThisIsntTheWay](https://github.com/ThisIsntTheWay)
 * js-confetti by: [loonywizard](https://github.com/loonywizard/js-confetti)
 * Idea by: [@PabloM](https://community.wanikani.com/u/pablom/summary)
